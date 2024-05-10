@@ -15,8 +15,8 @@ export default function BingoTile({ tile }: { tile: string }) {
   return (
     <button
       onClick={() => setChecked(!checked)}
-      className={`flex items-center justify-center p-4 aspect-square rounded-lg hover:brightness-125 transition ${
-        checked ? "bg-emerald-500" : "bg-gray-600"
+      className={`flex items-center justify-center p-2 aspect-square rounded-lg  transition text-sm ${
+        checked ? "bg-emerald-500" : "bg-gray-600 hover:brightness-125"
       }`}
     >
       {tile}

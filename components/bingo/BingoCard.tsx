@@ -11,7 +11,7 @@ export default function BingoCard() {
   });
 
   return (
-    <div className="max-w-5xl bg-gray-700 border-8 border-gray-600 rounded-xl">
+    <div className="max-w-3xl mt-8 bg-gray-700 border-8 border-gray-600 rounded-xl">
       <div className="grid grid-cols-5 grid-rows-5 gap-4 p-4">
         {tileElements}
       </div>
