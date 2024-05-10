@@ -7,16 +7,16 @@ export default function BingoTile({ tile }: { tile: string }) {
 
   if (tile === "Free Tile") {
     return (
-      <button className="flex items-center justify-center p-4 rounded-lg bg-emerald-500">
+      <div className="flex items-center justify-center p-4 rounded-lg bg-emerald-500">
         {tile}
-      </button>
+      </div>
     );
   }
   return (
     <button
       onClick={() => setChecked(!checked)}
-      className={`flex items-center justify-center p-4  rounded-lg ${
-        checked ? "bg-emerald-500" : "bg-gray-400"
+      className={`flex items-center justify-center p-4 aspect-square rounded-lg hover:brightness-125 transition ${
+        checked ? "bg-emerald-500" : "bg-gray-600"
       }`}
     >
       {tile}
