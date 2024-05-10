@@ -32,7 +32,7 @@ export const tiles = [
   "Nikon racism",
   "Sigma 150-600",
   "Sigma 100-400",
-  "600mm f/4 PF rec",
+  "600mm f/4 rec",
   "400mm f/2.8 rec",
   "Z6iii will have global shutter",
   "Someone refuses to use prime lenses",
