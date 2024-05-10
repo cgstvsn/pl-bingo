@@ -12,7 +12,6 @@ export const tiles = [
   "My phone has a 108MP camera.",
   "Snapshot for critique",
   "It's an artistic choice!",
-  "Should I buy these presets?",
   "Pasta",
   "Stuck on shit advice from family or friend",
   "Stuck on influencer gear rec",
