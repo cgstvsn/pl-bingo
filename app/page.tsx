@@ -1,3 +1,4 @@
+import Link from "next/link";
 import BingoCard from "@/components/bingo/BingoCard";
 
 export const dynamic = "force-dynamic";
@@ -11,6 +12,10 @@ export default async function Index() {
       </div>
 
       <BingoCard />
+
+      <Link href="https://github.com/cgstvsn/pl-bingo" target="_blank">
+        Contribute
+      </Link>
     </div>
   );
 }
