@@ -8,7 +8,7 @@ export const tiles = [
   "asks for feedback > gets defensive",
   "HDR Confusion",
   "Discord ruined my image",
-  "Landscapes, Portraits, Video and some wildlife with $400 budget.",
+  "Everything, Video and some birds with $400 budget.",
   "My phone has a 48/64/108 MP camera.",
   "Snapshot for critique",
   "It's an artistic choice!",
@@ -51,6 +51,8 @@ export const tiles = [
   "TV lens reference",
   "Most expensive lens topic",
   "Out-of-context 'Just buy [some expensive camera/lens]'",
-  "'I'm planning to get A6400'"
-
+  "'I'm planning to get A6400'",
+  "Skull emoji",
+  ":sob: emoji",
+  "Wilted rose emoji"
 ];
